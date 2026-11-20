@@ -1,5 +1,7 @@
 # embed (development version)
 
+* Adds `step_discretize_monotonic()` to discretize numeric predictors into bins with monotonic event rates against a binary outcome, using fine pre-binning followed by pool-adjacent-violators merging. The resulting ordered factors can be passed on to `step_woe()`.
+
 # embed 1.2.2
 
 * Fixed bug on step_umap() where the number of calculated components would be zero. (#271)

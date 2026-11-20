@@ -132,5 +132,6 @@ bake(cart_rec, ad_data_te, tau)
 \dontshow{\}) # examplesIf}
 }
 \seealso{
-\code{\link[recipes:step_discretize]{recipes::step_discretize()}}, \code{\link[=step_discretize_xgb]{step_discretize_xgb()}}
+\code{\link[recipes:step_discretize]{recipes::step_discretize()}}, \code{\link[=step_discretize_xgb]{step_discretize_xgb()}},
+\code{\link[=step_discretize_monotonic]{step_discretize_monotonic()}}
 }

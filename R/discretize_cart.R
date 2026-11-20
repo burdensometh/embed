@@ -86,7 +86,8 @@
 #' tidy(cart_rec, id = "cart splits")
 #'
 #' bake(cart_rec, ad_data_te, tau)
-#' @seealso [recipes::step_discretize()], [step_discretize_xgb()]
+#' @seealso [recipes::step_discretize()], [step_discretize_xgb()],
+#'   [step_discretize_monotonic()]
 #' @export
 step_discretize_cart <-
   function(

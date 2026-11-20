@@ -28,6 +28,7 @@ reference:
 - title: Embed numeric predictors
   contents:
   - step_discretize_cart
+  - step_discretize_monotonic
   - step_discretize_xgb
   - step_pca_sparse
   - step_pca_sparse_bayes
