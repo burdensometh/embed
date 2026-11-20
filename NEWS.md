@@ -1,5 +1,7 @@
 # embed (development version)
 
+* `step_lencode_hier()` (also available as `step_lencode_hierarchical()`) performs hierarchical likelihood encoding. Given a hierarchy such as product, category, and department, it partially pools each level towards its parent, stores the learned parent relations with their support, and falls back to the finest available parent when a category is unseen. Missing and unseen values are encoded separately. (#246)
+
 # embed 1.2.2
 
 * Fixed bug on step_umap() where the number of calculated components would be zero. (#271)

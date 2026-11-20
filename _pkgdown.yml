@@ -19,6 +19,7 @@ reference:
   - step_lencode
   - step_lencode_bayes
   - step_lencode_glm
+  - step_lencode_hier
   - step_lencode_mixed
   - step_woe
 - title: Collapse categorical predictors
